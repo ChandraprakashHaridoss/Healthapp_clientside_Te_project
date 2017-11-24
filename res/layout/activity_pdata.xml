@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pdata"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.feedbackhealthdata.healthcdataf.PdataActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv41"
+        android:text="Feed the data about each patient! "
+        android:textStyle="normal|bold|italic"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et41"
+        android:hint="enter patient name"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/tv41"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="13dp"
+        android:id="@+id/et42"
+        android:hint="enter case number"
+        android:layout_below="@+id/et41"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:id="@+id/et43"
+        android:hint="enter case details"
+        android:layout_below="@+id/et42"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="14dp"
+        android:id="@+id/et44"
+        android:hint="enter test required"
+        android:layout_below="@+id/et43"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="12dp"
+        android:id="@+id/et45"
+        android:hint="Additional requirements if any needed"
+        android:layout_below="@+id/et44"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et46"
+        android:layout_marginTop="13dp"
+        android:hint="enter patient cell no"
+        android:layout_below="@+id/et45"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et47"
+        android:hint="enter patients address"
+        android:layout_below="@+id/et46"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="13dp"
+        android:id="@+id/b41"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="@android:color/background_light" />
+
+    <Button
+        android:text="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:id="@+id/b42"
+        android:layout_alignBaseline="@+id/b41"
+        android:layout_alignBottom="@+id/b41"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b42"
+        android:layout_alignEnd="@+id/et47"
+        android:layout_marginEnd="23dp"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:text="exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b43"
+        android:layout_alignBaseline="@+id/b42"
+        android:layout_alignBottom="@+id/b42"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="normal|bold" />
+</RelativeLayout>

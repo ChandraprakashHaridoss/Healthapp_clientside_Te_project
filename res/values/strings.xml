@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">healthCdataF</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="tv1">Category</string>
+    <string-array name="tv1">
+
+        <item>Accident</item>
+        <item>Cancer</item>
+        <item>Maternity</item>
+        <item>Eye</item>
+    </string-array>
+</resources>
